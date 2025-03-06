@@ -93,6 +93,9 @@ def main():
 		return
 
 	for content_file in content_dir.glob('*.txt'):
+		if 'example' in content_file.name.lower():
+			logging.info(f'Skipping example file: {content_file}')
+			continue
 		try:
 			subreddit, title, body = process_content_file(content_file)
 			post_to_reddit(reddit, subreddit, title, body)

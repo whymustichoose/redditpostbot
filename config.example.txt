@@ -1,4 +1,0 @@
-username=your_reddit_username
-password=your_reddit_password
-client-id=your_reddit_client_id
-client-secret=your_reddit_client_secret 
