@@ -1,4 +1,4 @@
-# Reddit Post Manager
+# Reddit Post Bot
 
 A Python script that helps you manage and automate posting content to multiple subreddits. The script reads content from text files and posts them to specified subreddits using the Reddit API.
 
@@ -27,6 +27,8 @@ cd rdprj2
 2. Install required packages:
 ```bash
 pip install praw
+or 
+pip3 install praw
 ```
 
 3. Create your configuration file:
